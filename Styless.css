@@ -1,0 +1,29 @@
+body{
+    background-color:#212121;
+    font-family:Verdana;
+    color:#e8e8e8;
+}
+.Title{
+    border-left: 7px solid rgb(255, 255, 255);
+}
+.Link{
+    text-decoration:underline;
+    color:#e8e8e8;
+    font-weight:bold;
+}
+.Img{
+    height:300px;
+}
+.Tung{
+    margin-top: -40%;
+    margin-left: 66%;
+    opacity: 0;
+    transition: opacity .5s ease-in-out;
+}
+.Tung:hover{
+    transition: opacity 5s ease-in-out;
+    opacity:1;
+}
+.BigTung{
+    height:2000px
+}
